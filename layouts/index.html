@@ -1,0 +1,34 @@
+{{ partial "header.html" . }}
+<section id="article-listing">
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+    {{ range $paginator.Pages }}
+    <article>
+        <h1 class="article-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+        <!-- <p class="article-info">
+            on <strong>{{ .Date.Format "Mon, Jan 02, 2006" }}</strong> by <strong>{{ .Site.Author.name }}</strong> &middot; <strong>{{ .ReadingTime }} min reading time {{ if .Site.DisqusShortname }} &middot; <a href="{{ .Permalink }}#disqus_thread">Comments</a>{{ end }}</strong>
+        </p> -->
+        <span class="article-info">
+                <strong>{{ .Date.Format "Jan 2, 2006" }}</strong>
+                by <strong>{{ .Site.Author.name }}</strong>
+                {{ if not .Site.Params.hideReadingTime }} &middot;
+                <strong>{{ .ReadingTime }} minute read{{ end }}</strong>
+                {{ if .Site.DisqusShortname }} &middot;
+                <a href="{{ .Permalink }}#disqus_thread">Comments</a>{{ end }}
+                {{ if isset .Params "tags" }}
+                &middot;
+                {{ range .Params.tags }}<a class="label" href="{{ "/tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
+                {{ end }}</span>
+        {{ if eq .Site.Params.truncate false }}
+        {{ .Content }}
+        {{ else if .Description }}
+        <p>{{ .Description }}</p>
+        <a href="{{ .Permalink }}"><p class="article-read-more"><a href="{{ .Permalink }}">Read more &rarr;</a></p>
+        {{ else }}
+        <p>{{ .Summary }}</p>
+        {{ if .Truncated }}<a href="{{ .Permalink }}"><p class="article-read-more"><a href="{{ .Permalink }}">Read more &rarr;</a></p>{{ end }}
+        {{ end }}
+    </article>
+    {{ end }}
+    {{ template "_internal/pagination.html" . }}
+</section>
+{{ partial "footer.html" . }}

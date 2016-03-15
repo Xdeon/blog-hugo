@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+   <article class="article-content">
+      <span class="article-info">
+          by <strong>{{ .Site.Author.name }}</strong>
+          {{ if not .Site.Params.hideReadingTime }} &middot;
+          <strong>{{ .ReadingTime }} minute read{{ end }}</strong>
+          {{ if .Site.DisqusShortname }} &middot;
+          <a href="{{ .Permalink }}#disqus_thread">Comments</a>{{ end }}
+          {{ if isset .Params "tags" }}
+          &middot;
+          {{ range .Params.tags }}<a class="label" href="{{ "/tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
+          {{ end }}
+      </span>
+      {{ .Content }}
+      <br/>
+      {{ partial "disqus_embed.html" .}}
+   </article>
+{{ partial "footer.html" . }}

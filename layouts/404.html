@@ -1,0 +1,10 @@
+<!-- <h1>404 Not Found</h1>
+<p><a href="{{ "/" | absURL }}">return to home</a></p> -->
+
+{{ partial "header.html" . }}
+  <article class="article-content">
+    <h1>404 Not Found</h1>
+    <p>What you're looking for isn't here, sorry!</p>
+    <p><a href="{{ "/" | absURL }}">return to home</a></p>
+  </article>
+{{ partial "footer.html" . }}

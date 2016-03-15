@@ -1,0 +1,22 @@
++++
+date = "2015-07-30T05:57:30-06:00"
+description = "Nice to meet you guys! This is a test post."
+keywords = []
+title = "Test Post"
+tags = [ "golang", "hello world"]
++++
+
+Nice to meet you guys! This is a test post.
+
+Build Web App with Go Language
+
+{{< youtube Vlie-srOU8c >}}
+
+Hello world code in Go:
+
+<pre><code class="go">//Hello World
+package main
+import "fmt"
+func main() {
+  fmt.Println("Hello, world!")
+}</code></pre>

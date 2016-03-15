@@ -1,0 +1,94 @@
+baseurl = "https://hengshi.me"
+languageCode = "en-us"
+title = "Heng's Notes"
+MetaDataFormat = "toml"
+
+disqusShortname = "hengshi"
+
+theme = "slender"
+paginate = 3
+PaginatePath = "/"
+
+[author]
+    name = "Heng"
+
+[taxonomies]
+    tag = "tags"
+    # category = "categories"
+    # series = "series"
+
+[permalinks]
+
+    # Permalink format for pages.
+    page = "/:title/"
+
+    # Permalink format for blog posts.
+    post = "/article/:title/"
+
+[params]
+    # If false display full article contents in blog index.
+    # Otherwise show description and 'read more' link to individual blog post page.
+    # Default (if omitted) is true.
+    truncate = true
+
+    hideReadingTime = true
+
+    # Change the color scheme of Slender.
+    # See above for preview and list of color schemes.
+    colorscheme = "white"
+
+    # Tagline; HTML accepted here. Keep it concise.
+    tagline = "Learn by doing"
+
+    # Footer; Markdown accepted here.
+    footer = "&copy; 2016 Heng Shi &middot; Powered by <a href=\"https://gohugo.io\">Hugo</a>"
+
+    # Description and keywords for <meta> tags.
+    # Remember to set this for your main page.
+    # This will be overridden by whatever is set by the page or post,
+    # defined by `description` and `keywords` variables in the front matter
+    # of the markdown file.
+    description = "Home page"
+    keywords = "main,home"
+
+    # Social links, must be full URLs (e.g. https://github.com/CrimsonRay/).
+    # Remove, comment, or leave blank any field to leave them out.
+    email = "mailto:hongyfeng321@gmail.com?subject=Hey%20there%2C%20I%27m%20contacting%20you%20from%20hengshi.me"
+    github = "https://github.com/xdeon"
+    # bitbucket = "url-to-your-bitbucket"
+    # twitter = "url-to-your-twitter"
+    # stackoverflow = "url-to-your-stackoverflow"
+    linkedin = "https://ca.linkedin.com/in/hengshi"
+    # facebook = "url-to-your-facebook"
+
+    # Google Analytics
+    # Remove, comment, or leave it blank if you don't have one.
+    ganalytics = "UA-73371509-2"
+
+[menu]
+
+    # Menu for the nav bar.
+    # There must always be one item present (e.g. home).
+    [[menu.main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "/"
+    weight     = 0
+
+    [[menu.main]]
+    identifier = "tags"
+    name       = "Tags"
+    url        = "/tags"
+    weight     = 1
+
+    [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about/"
+    weight     = 2
+
+    [[menu.main]]
+    identifier = "license"
+    name       = "License"
+    url        = "/license/"
+    weight     = 3
