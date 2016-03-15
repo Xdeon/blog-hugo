@@ -1,0 +1,16 @@
+box: debian
+build:
+  steps:
+    - arjen/hugo-build@1.8.4:
+        version: "0.15"
+        theme: slender
+        flags: --buildDrafts=true
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - uetchy/gh-pages@0.3.1:
+        token: $GITHUB_TOKEN
+        repo: Xdeon/Xdeon.github.io
+        path: public
+        domain: hengshi.me
