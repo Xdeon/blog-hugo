@@ -34,6 +34,19 @@ a.label:focus {
   cursor: pointer;
 }
 
+.article-info {
+     margin-top: -.5rem;
+     margin-bottom: 1rem;
+     font-family: "Open Sans", Helvetica, sans-serif
+ }
+
+ .footer {
+     display: block;
+     color: #7e7e7e;
+     font-size: 14px;
+     margin-top: -20px;
+ }
+
 /* Color scheme for labels */
 .color-scheme-red .label {
   background-color: #ac4142;
