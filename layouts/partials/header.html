@@ -25,6 +25,7 @@
         <link rel="stylesheet" href="{{ "/css/slender-base.css" | absURL }}">
         <link rel="stylesheet" href="{{ "/css/slender-color-schemes.css" | absURL }}">
         <link rel="stylesheet" href="{{ "/css/font-awesome-4.5.0.min.css" | absURL }}">
+        <link rel="stylesheet" href="{{ "/css/utils.css" | absURL }}">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
         <title>
             {{ if eq .URL "/" }}
@@ -41,11 +42,11 @@
                     <ul>{{ range .Site.Menus.main }}<li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>{{ end }}</ul>
                 </nav>
                 {{ if eq .Section "page" }}
-                    <h1 class="title">{{ .Title }}</h1>
+                    <h1 class="page-title">{{ .Title }}</h1>
                 {{ else if eq .Section "post" }}
-                    <h1 class="title">{{ .Title }}</h1>
+                    <h1 class="post-title">{{ .Title }}</h1>
                     <aside>
-                        <p>on <strong>{{ .Date.Format "Mon, Jan 02, 2006" }}</strong></p>
+                        <p>by <strong>{{ .Site.Author.name }}</strong> on <strong>{{ .Date.Format "Mon, Jan 02, 2006" }}</strong></p>
                     </aside>
                 {{ else }}
                     <h1 class="brand">{{ .Site.Title }}</h1>
