@@ -31,7 +31,7 @@ PaginatePath = "/"
     # Default (if omitted) is true.
     truncate = true
 
-    hideReadingTime = true
+    hideReadingTime = false
 
     # Change the color scheme of Slender.
     # See above for preview and list of color schemes.
