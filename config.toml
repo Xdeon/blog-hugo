@@ -40,16 +40,16 @@ PaginatePath = "/"
     # Tagline; HTML accepted here. Keep it concise.
     tagline = "Learn by doing"
 
-    # Footer; Markdown accepted here.
-    footer = "&copy; 2016 Heng Shi &middot; Powered by <a href=\"https://gohugo.io\">Hugo</a>"
+    # copyright; Markdown accepted here.
+    copyright = "&copy; 2016 <a href=\"\">Heng Shi</a>"
 
     # Description and keywords for <meta> tags.
     # Remember to set this for your main page.
     # This will be overridden by whatever is set by the page or post,
     # defined by `description` and `keywords` variables in the front matter
     # of the markdown file.
-    description = "Home page"
-    keywords = "main,home"
+    description = "Always on the way"
+    keywords = "always, on the way, heng"
 
     # Social links, must be full URLs (e.g. https://github.com/CrimsonRay/).
     # Remove, comment, or leave blank any field to leave them out.
