@@ -6,7 +6,7 @@ title = "About"
 
 ## About me
 
-I am currently a graduate student at Department of Computer Science, University of Saskatchewan, Canada. My research focuses on utilizing concurrent-oriented programming language such as Erlang/Go to design and implement Internet of Things protocol as well as infrastructure.
+I am currently a graduate student at Department of Computer Science, University of Saskatchewan, Canada. My research focuses on utilizing concurrent-oriented programming language such as Erlang/Go to design and implement Internet of Things protocol as well as infrastructure. I am also a MOOC fan, being active on Coursera recently.
 
 ## Education
 
