@@ -1,10 +1,13 @@
-<!-- <h1>404 Not Found</h1>
-<p><a href="{{ "/" | absURL }}">return to home</a></p> -->
-
 {{ partial "header.html" . }}
-  <article class="article-content">
-    <h1>404 Not Found</h1>
-    <p>What you're looking for isn't here, sorry!</p>
-    <p><a href="{{ "/" | absURL }}">return to home</a></p>
-  </article>
+
+<div class="container">
+    {{ if .Site.Params.intro }}
+        <header class="post-header">
+            <h1 class="post-title" itemprop="name">{{ .Site.Params.headline }}</h1>
+            <p>{{ .Site.Params.description }}</p>
+        </header>
+    {{ end }}
+    <p class="error">Oh, this page does not exist. You can head back to <a href="{{ .Site.BaseURL }}">homepage</a>.</p>
+</div>
+
 {{ partial "footer.html" . }}
