@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ .Title }} &middot; {{ .Site.Author.name }}</title>
         <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-        <meta name="keywords" content="{{ with .Keywords }}{{ delimit . ", " }}{{ else }}{{ .Site.Params.keywords }}{{ end }}">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         {{ .Hugo.Generator }}
