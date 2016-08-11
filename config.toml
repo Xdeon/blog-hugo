@@ -1,4 +1,4 @@
-baseurl = "https://hengshi.me"
+baseurl = "https://hengshi.me/"
 title = "Heng's Notes"
 theme = "ghostwriter"
 languageCode = "en-us"
