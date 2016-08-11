@@ -9,7 +9,7 @@
         <span itemscope="" itemprop="author" itemtype="http://schema.org/Person">
             <span itemprop="name">
                 <!-- <a href="{{ .Site.Author.profile }}" itemprop="url" rel="author">{{ .Site.Author.name }}</a> -->
-                {{ .Site.Author.name }}
+                <a href="{{ "/about/" | absURL }}" itemprop="url" rel="author">{{ .Site.Author.name }}</a>
             </span>
         </span>
     </p>
