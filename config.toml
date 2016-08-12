@@ -1,7 +1,7 @@
 baseurl = "https://hengshi.me/"
 languageCode = "en-us"
 title = "Heng's Notes"
-theme = "hugo_theme_harb"
+theme = "harb"
 author = "Heng Shi"
 copyright = "Heng Shi"
 # canonifyurls = true
