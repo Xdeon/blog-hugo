@@ -8,7 +8,7 @@ copyright = "Heng Shi"
 # paginate = 3
 disqusShortname = "hengshi"
 googleAnalyticsUserID = "UA-73371509-2"
-#
+
 [params]
     email = "hongyfeng123@gmail.com"
     github = "https://github.com/Xdeon"
