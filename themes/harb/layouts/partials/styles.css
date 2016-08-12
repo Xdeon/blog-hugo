@@ -355,7 +355,8 @@ article .body a {
 article .body p {
   line-height: 1.5rem;
   margin: 1.5rem 0;
-  word-break: break-all;
+  /*word-break: break-all;*/
+  word-break: normal;
 }
 
 article .body h1,
