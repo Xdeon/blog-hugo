@@ -6,6 +6,7 @@ copyright = "Heng Shi"
 googleAnalytics = "UA-73371509-2"
 disqusShortname = "hengshi"
 
+
 [Author]
     name = "Heng Shi"
     # profile = "https://google.com/+HengShixdeon"
@@ -23,6 +24,7 @@ disqusShortname = "hengshi"
     # twitter = "https://twitter.com/XXX"
     # stackoverflow = "http://stackoverflow.com/users/XXX/YYY"
     email = "hongyfeng123@gmail.com"
+
 
 [Permalinks]
     # post = "/:year/:month/:day/:filename/"

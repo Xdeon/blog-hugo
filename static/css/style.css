@@ -73,7 +73,7 @@ img {
   width: auto;
   max-width: 100%; }
 
-pre {
+/*pre {
   background: #F1F0EA;
   border: 1px solid #DDDBCC;
   border-radius: 3px;
@@ -86,7 +86,7 @@ code {
   font-size: 90%;
   color: #F03838;
   background-color: #F1F0EA;
-  border-radius: 4px; }
+  border-radius: 4px; }*/
 
 hr {
   border: none;

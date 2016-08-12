@@ -21,8 +21,10 @@
             </div>
         </footer>
 
+        {{ template "_internal/google_analytics.html" . }}
         <script src="{{ .Site.BaseURL }}js/jquery-1.11.3.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
         <script src="{{ .Site.BaseURL }}js/jquery.fitvids.js"></script>
         <script src="{{ .Site.BaseURL }}js/scripts.js"></script>
     </body>
