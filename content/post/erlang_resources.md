@@ -3,7 +3,6 @@ date = "2016-03-10T06:11:36-06:00"
 description = "Some collection of Erlang learning resources."
 title = "Erlang Resources"
 tags = ["erlang", "learning"]
-featured = true
 +++
 
 ## Learning resources

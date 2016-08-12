@@ -12,6 +12,7 @@ Nice to meet you guys! This is a test post.
 ### Image test
 ![alt text](/images/cloud.jpg "雲バトル")
 
+
 ### Video test
 
 Build Web App with Go Language

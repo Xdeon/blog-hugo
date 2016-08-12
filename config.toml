@@ -1,65 +1,40 @@
 baseurl = "https://hengshi.me/"
-title = "Heng's Notes"
-theme = "ghostwriter"
 languageCode = "en-us"
+title = "Heng's Notes"
+theme = "hugo_theme_harb"
+author = "Heng Shi"
 copyright = "Heng Shi"
-googleAnalytics = "UA-73371509-2"
+# canonifyurls = true
+# paginate = 3
 disqusShortname = "hengshi"
-
-
-[Author]
-    name = "Heng Shi"
-    # profile = "https://google.com/+HengShixdeon"
-
-[Taxonomies]
-    tag = "tags"
-
-[Params]
-    intro = true
-    headline = "Heng's Notes"
-    description = "Learn by doing"
-    github = "https://github.com/Xdeon"
-    linkedin = "https://linkedin.com/in/hengshi/"
-    # gplus = "https://google.com/+XXX"
-    # twitter = "https://twitter.com/XXX"
-    # stackoverflow = "http://stackoverflow.com/users/XXX/YYY"
+googleAnalyticsUserID = "UA-73371509-2"
+#
+[params]
     email = "hongyfeng123@gmail.com"
+    github = "https://github.com/Xdeon"
+    linkedin = "hengshi"
+    twitter = "haha"
+    facebook = "haha"
 
+# [Taxonomies]
+#     tag = "tags"
 
-[Permalinks]
-    # post = "/:year/:month/:day/:filename/"
+[permalinks]
     # Permalink format for pages.
-    page = "/:title/"
+    # page = "/:title/"
 
     # Permalink format for blog posts.
-    post = "/article/:title/"
+    post = "/post/:title/"
+
 
 [[menu.main]]
-    name = "Blog"
-    url = "/"
-    weight = 1
-
-# [[menu.main]]
-#     name = "Projects"
-#     url = "/project/"
-#     weight = 2
-#
-# [[menu.main]]
-#     name = "Contact"
-#     url = "/page/contact/"
-#     weight = 3
-
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
+    identifier = "about"
+    name = "About"
+    url = "/about/"
     weight = 2
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 3
-
-[[menu.main]]
+    identifier = "license"
     name = "License"
     url = "/license/"
-    weight = 4
+    weight = 3

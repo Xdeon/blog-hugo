@@ -1,7 +1,6 @@
 +++
 date = "2016-02-04T07:47:19-06:00"
 description = "Some collection of Golang learning resources."
-keywords = []
 title = "Golang Resources"
 tags = ["golang", "learning"]
 +++
