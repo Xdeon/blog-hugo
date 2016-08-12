@@ -13,8 +13,8 @@ googleAnalyticsUserID = "UA-73371509-2"
     email = "hongyfeng123@gmail.com"
     github = "https://github.com/Xdeon"
     linkedin = "hengshi"
-    twitter = "haha"
-    facebook = "haha"
+    # twitter = "haha"
+    # facebook = "haha"
 
 # [Taxonomies]
 #     tag = "tags"
@@ -31,10 +31,4 @@ googleAnalyticsUserID = "UA-73371509-2"
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 2
-
-[[menu.main]]
-    identifier = "license"
-    name = "License"
-    url = "/license/"
-    weight = 3
+    weight = 1

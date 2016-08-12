@@ -5,7 +5,7 @@ title = "Erlang Resources"
 tags = ["erlang", "learning"]
 +++
 
-## Learning resources
+### Learning resources
 
 [Learn You Some Erlang for Great Good](http://learnyousomeerlang.com) (A must read)
 
@@ -14,7 +14,7 @@ tags = ["erlang", "learning"]
 [YET ANOTHER INTRODUCTION TO ERLANG](http://theerlangelist.blogspot.ca/2012/12/yet-another-introduction-to-erlang.html)
 
 
-## Tools
+### Tools
 
 [intellij-erlang, Erlang plugin for IntelliJ IDEA](http://ignatov.github.io/intellij-erlang/)
 
@@ -25,13 +25,13 @@ tags = ["erlang", "learning"]
 [erlang.mk, A build tool for Erlang that just works](https://erlang.mk)
 
 
-## Some great blogs
+### Some great blogs
 
 [Fred](http://ferd.ca) (the author of Learn You Some Erlang for Great Good)
 
 [Joe Armstrong](http://joearms.github.io/index.html) (one of the creaters of Erlang)
 
-## Thoughts
+### Thoughts
 
 [Erlangs parallelism is not parallelism!](http://jlouisramblings.blogspot.ca/2011/07/erlangs-parallelism-is-not-parallelism.html)
 
