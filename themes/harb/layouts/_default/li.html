@@ -1,0 +1,23 @@
+{{ if ne .Type "page"}}
+<article class="li">
+  <header>
+    <div class="detail">
+      <time class="date">{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time> - <a href="{{ .Site.BaseURL }}{{ .Section | urlize }}" class="section">{{ .Section }}</a>
+      {{ if .Site.DisqusShortname }}
+      - <a href="{{ .Permalink }}#disqus_thread">Comments</a>
+      {{ end }}
+    </div>
+    <h2 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  </header>
+
+  <div class="summary">
+      {{ if .Description}}
+      {{ .Description }}
+      {{ else }}
+      {{ .Summary }}
+      ...
+      {{ end }}
+  </div>
+  <a href="{{ .Permalink }}" class="more"></a>
+</article>
+{{ end }}

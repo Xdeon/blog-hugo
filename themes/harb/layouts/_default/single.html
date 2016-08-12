@@ -1,0 +1,81 @@
+{{ define "title" }}{{ .Title }} - {{ end }}
+
+{{ define "main" }}
+<nav class="p-crumb">
+  <div class="container wide">
+    <ol>
+      <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="{{ .Site.BaseURL }}" itemprop="url"><span itemprop="title">Blog</span></a></li>
+      {{ if eq .Type "post" }}
+      <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="{{ .Site.BaseURL }}{{ .Section | urlize }}" itemprop="url"><span itemprop="title">{{ .Section }}</span></a></li>
+      {{ end }}
+      <li><span>{{ .Title }}</span></li>
+    </ol>
+  </div>
+</nav>
+
+<main>
+  <div class="container">
+    <article class="single">
+
+      <header>
+        <h1 class="title">{{ .Title }}</h1>
+        {{ if eq .Type "post"}}
+        <div class="detail">
+          <time class="date">{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time> - <a href="{{ .Site.BaseURL }}{{ .Section | urlize }}" class="section">{{ .Section }}</a>
+        </div>
+        {{ end }}
+      </header>
+
+      <div class="body">{{ .Content }}</div>
+
+      {{ if eq .Type "post"}}
+      <aside>
+        <ul class="h-inine p-tags">
+          {{ range .Params.tags }}
+          <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>
+          {{ end }}
+        </ul>
+      </aside>
+      {{ end }}
+
+      {{ if eq .Type "post"}}
+      <aside>
+        <div class="p-adj">
+          {{ with .PrevInSection }}
+          <div>
+            <header class="prev"></header>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </div>
+          {{ end }}
+          {{ with .NextInSection }}
+          <div>
+            <header class="next"></header>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </div>
+          {{ end }}
+        </div>
+      </aside>
+      {{ end }}
+
+    </article>
+    {{ if eq .Type "post"}}
+        {{ if .Site.DisqusShortname }}
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /**
+                * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                */
+
+                var disqus_config = function () {
+                this.page.identifier = '{{ .Date }}' + '{{ .Title }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+            </script>
+            {{ template "_internal/disqus.html" . }}
+        {{ end }}
+    {{ end }}
+
+  </div>
+
+</main>
+{{ end }}

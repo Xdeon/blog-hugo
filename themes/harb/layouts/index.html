@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main>
+  <div class="container">
+
+    <ul class="p-articles">
+      {{ range .Paginator.Pages }}
+      <li>{{ .Render "li" }}</li>
+      {{ end }}
+    </ul>
+
+    {{ partial "pagination.html" . }}
+
+  </div>
+</main>
+{{ end }}

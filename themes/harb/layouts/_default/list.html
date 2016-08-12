@@ -1,0 +1,31 @@
+{{ define "title" }}{{ .Title | singularize }} - {{ end }}
+
+{{ define "main" }}
+<nav class="p-crumb">
+  <div class="container wide">
+    <ol>
+      <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="{{ .Site.BaseURL }}" itemprop="url"><span itemprop="title">Blog</span></a></li>
+      {{ if .Data.Plural }}
+      <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="{{ .Site.BaseURL }}{{ .Data.Plural | urlize }}" itemprop="url"><span itemprop="title">{{ .Data.Singular }}</span></a></li>
+      {{ end }}
+      <li><span>{{ .Title | singularize }}</span></li>
+    </ol>
+  </div>
+</nav>
+
+<main>
+  <div class="container">
+
+    <h1 class="p-page-title">{{ .Title | singularize }}</h1>
+
+    <ul class="p-articles">
+      {{ range (.Paginate .Data.Pages).Pages }}
+      <li>{{ .Render "li" }}</li>
+      {{ end }}
+    </ul>
+
+    {{ partial "pagination.html" . }}
+
+  </div>
+</main>
+{{ end }}
