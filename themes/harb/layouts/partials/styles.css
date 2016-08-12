@@ -25,7 +25,8 @@ p {
 }
 
 a {
-  color: #8bc34a;
+  /*color: #8bc34a;*/
+  color: #3399ff;
   text-decoration: none;
   transition-duration: .2s;
 }
@@ -33,7 +34,8 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #7cb342;
+  /*color: #7cb342;*/
+  color: #0080ff;
 }
 
 ul, ol {
@@ -281,7 +283,8 @@ article.li {
 
 article .more {
   display: inline-block;
-  background-color: #8bc34a;
+  /*background-color: #8bc34a;*/
+  background-color: #3399ff;
   color: #fff;
   border-radius: 3px;
   line-height: 1.75rem;
@@ -293,7 +296,8 @@ article .more {
 }
 
 article .more:hover {
-  background-color: #7cb342;
+  /*background-color: #7cb342;*/
+  background-color: #0080ff;
   text-decoration: none;
 }
 
