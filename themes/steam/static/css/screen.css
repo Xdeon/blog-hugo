@@ -226,17 +226,18 @@ section.author p.bio {
 blockquote {
   display: block;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 1.6em;
+  font-size: 1.5em;
+  /*font-size: .1.6rem*/
   font-weight: 300;
   line-height: 1.2em;
   font-style: italic;
   text-transform: uppercase;
   border-left: 0.4em solid rgba(0, 0, 0, 0.05);
   margin-left: 1em;
-/*  padding-right: 1.5em;
-  padding-left: 1em;*/
-  padding: .5rem
+  padding-right: 1.5em;
+  padding-left: 1em;
 }
+
 .post-meta {
   color: #95a5a6;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
