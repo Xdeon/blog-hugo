@@ -228,7 +228,8 @@ blockquote {
   /*font-size: 1.6em;*/
   display: block;
   font-size: 1.5em;
-  word-break : normal
+  overflow-wrap: break-word;
+  word-break: break-word;
   
   font-weight: 300;
   line-height: 1.2em;
