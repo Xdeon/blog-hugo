@@ -12,10 +12,10 @@
 			<a href="mailto:{{ . }}" title="Email"><i class="fa fa-2x fa-fw fa-envelope"></i> <span class="hidden">Email</span></a>&nbsp;
 			{{ end }}
 			{{ with .Site.Params.linkedin }}
-			<a href="https://linkedin.com/in/{{ . }}" title="Linkedin"><i class="fa fa-2x fa-fw fa-linkedin"></i> <span class="hidden">Email</span></a>&nbsp;
+			<a href="https://linkedin.com/in/{{ . }}" target="_blank" title="Linkedin"><i class="fa fa-2x fa-fw fa-linkedin"></i> <span class="hidden">Email</span></a>&nbsp;
 			{{ end }}
 			{{ with .Site.Params.keybase }}
-			<a href="https://keybase.io/{{ . }}" title="Keybase"><i class="fa fa-2x fa-fw fa-key"></i> <span class="hidden">Keybase</span></a>
+			<a href="https://keybase.io/{{ . }}" target="_blank" title="Keybase"><i class="fa fa-2x fa-fw fa-key"></i> <span class="hidden">Keybase</span></a>
 			{{ end }}
 		</section>
 
