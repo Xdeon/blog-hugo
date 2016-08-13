@@ -1,7 +1,7 @@
 baseurl = "https://hengshi.me/"
 languageCode = "en-us"
 title = "Heng's Notes"
-theme = "hugo-steam-theme"
+theme = "steam"
 disqusShortname = "hengshi"
 paginate = 10
 

@@ -1,0 +1,13 @@
+<section class="author">
+    {{ with .Site.Params.gravatar }}
+    <div class="authorimage" style="background: url(https://www.gravatar.com/avatar/{{ . | md5 }}?s=100&d=identicon)"></div>
+    {{ else }}
+    <div class="authorimage" style="background: url({{ .Site.BaseURL }}img/avatar.jpg)"></div>
+    {{ end }}
+
+    <h4>{{ .Site.Params.name }}</h4>
+    <p class="bio">{{  .Site.Params.bio | markdownify }}</p>
+    <p class="meta">
+      {{ with .Site.Params.location }}<i class="fa fa-fw fa-map-marker"></i> {{ . }}{{ end }}
+    </p>
+</section>
