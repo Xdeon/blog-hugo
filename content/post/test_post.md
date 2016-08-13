@@ -2,7 +2,7 @@
 date = "2015-07-30T05:57:30-06:00"
 description = ""
 title = "Test Post"
-tags = ["golang", "hello world"]
+tags = ["erlang", "golang", "hello world"]
 +++
 
 Nice to meet you guys! This is a test post.
