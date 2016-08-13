@@ -226,7 +226,7 @@ section.author p.bio {
 blockquote {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 1.6em;
-  display: block;
+  /*display: block;*/
   overflow-wrap: break-word;
   word-break: break-word;
   -webkit-hyphens: auto;
