@@ -6,7 +6,9 @@ title = "About"
 
 ## About me
 
-I am currently a graduate student at [Department of Computer Science, University of Saskatchewan, Canada](http://www.cs.usask.ca). My research focuses on utilizing concurrent-oriented programming language such as [Erlang](http://www.erlang.org)/[Go](https://golang.org) to build infrastructure for Internet of Things protocol like [CoAP](http://coap.technology). I am also a MOOC fan, being active on [Coursera](https://www.coursera.org/) recently.
+I am currently a graduate student at [Department of Computer Science, University of Saskatchewan, Canada](http://www.cs.usask.ca). My research focuses on utilizing concurrency-oriented programming language such as [Erlang](http://www.erlang.org)/[Go](https://golang.org) to build infrastructure for Internet of Things protocol like [CoAP](http://coap.technology). 
+
+Previously I was involed in electrical engineering and had some experience related to IC/FPGA design and industry automation. I am also a MOOC fan, being active on [Coursera](https://www.coursera.org/) recently.
 
 ## Education
 
