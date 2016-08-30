@@ -1,21 +1,21 @@
 <footer class="site-footer">
 	<div class="inner">
 		<section class="footer-social">
-			<a href="{{ .RSSlink }}" target="_blank" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>&nbsp;
+			<a href="{{ .RSSlink }}" target="_blank" rel="noopener noreferrer" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>&nbsp;
 			{{ with .Site.Params.twitter }}
-		    <a href="//twitter.com/{{ . }}" target="_blank" title="Twitter"><i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span></a>&nbsp;
+		    <a href="//twitter.com/{{ . }}" target="_blank" rel="noopener noreferrer" title="Twitter"><i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span></a>&nbsp;
 		    {{ end }}
 		    {{ with .Site.Params.github }}
-		    <a href="//github.com/{{ . }}" target="_blank" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a>&nbsp;
+		    <a href="//github.com/{{ . }}" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a>&nbsp;
 		    {{ end }}
 			{{ with .Site.Params.email }}
 			<a href="mailto:{{ . }}" title="Email"><i class="fa fa-2x fa-fw fa-envelope"></i> <span class="hidden">Email</span></a>&nbsp;
 			{{ end }}
 			{{ with .Site.Params.linkedin }}
-			<a href="https://linkedin.com/in/{{ . }}" target="_blank" title="Linkedin"><i class="fa fa-2x fa-fw fa-linkedin"></i> <span class="hidden">Email</span></a>&nbsp;
+			<a href="https://linkedin.com/in/{{ . }}" target="_blank" rel="noopener noreferrer" title="Linkedin"><i class="fa fa-2x fa-fw fa-linkedin"></i> <span class="hidden">Email</span></a>&nbsp;
 			{{ end }}
 			{{ with .Site.Params.keybase }}
-			<a href="https://keybase.io/{{ . }}" target="_blank" title="Keybase"><i class="fa fa-2x fa-fw fa-key"></i> <span class="hidden">Keybase</span></a>
+			<a href="https://keybase.io/{{ . }}" target="_blank" rel="noopener noreferrer" title="Keybase"><i class="fa fa-2x fa-fw fa-key"></i> <span class="hidden">Keybase</span></a>
 			{{ end }}
 		</section>
 
