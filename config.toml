@@ -30,6 +30,7 @@ paginate = 10
 	# location = "" # optional
 	# twitter = "spf13" # optional
 	github = "Xdeon" # optional
+	# gitlab = "pcarranza"
     email = "hongyfeng123@gmail.com"
     linkedin = "hengshi"
     keybase = "xdeon"

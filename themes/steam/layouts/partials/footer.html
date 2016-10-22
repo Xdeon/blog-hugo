@@ -8,6 +8,9 @@
 		    {{ with .Site.Params.github }}
 		    <a href="//github.com/{{ . }}" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a>&nbsp;
 		    {{ end }}
+		    {{ with .Site.Params.gitlab }}
+ 		    <a href="//gitlab.com/u/{{ . }}" target="_blank" rel="noopener noreferrer" title="GitLab"><i class="fa fa-2x fa-fw fa-gitlab"></i> <span class="hidden">GitLab</span></a>&nbsp;
+ 		    {{ end }}
 			{{ with .Site.Params.email }}
 			<a href="mailto:{{ . }}" title="Email"><i class="fa fa-2x fa-fw fa-envelope"></i> <span class="hidden">Email</span></a>&nbsp;
 			{{ end }}
