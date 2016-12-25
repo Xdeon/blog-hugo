@@ -3,7 +3,7 @@ build:
   steps:
     - arjen/hugo-build@1.13.1:
         version: "0.17"
-        theme: "steam"
+        theme: "hugo-steam-theme"
         flags: --buildDrafts=false
 deploy:
   steps:
