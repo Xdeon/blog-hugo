@@ -1,8 +1,11 @@
 baseurl = "https://hengshi.me/"
 languageCode = "en-us"
 title = "Heng's Notes"
-theme = "steam"
+theme = "hugo-steam-theme"
 disqusShortname = "hengshi"
+# Enable Google Analytics be inserting your tracking code
+googleAnalytics = "UA-73371509-2"
+# Number of posts per page
 paginate = 10
 
 [permalinks]
@@ -10,35 +13,36 @@ paginate = 10
     post = "/post/:title/"
 
 [params]
-
 	title = "Heng's Notes"
 	subtitle = "Learn by doing"
 	copyright = "Powered by [Hugo](https://gohugo.io); Theme based on [steam](https://github.com/digitalcraftsman/hugo-steam-theme)."
 
 	# You can choose between green, orange, red and blue.
-	themeColor = "blue"
-	# Enable Google Analytics be inserting your tracking code
-	googleAnalytics = "UA-73371509-2"
+	themecolor = "blue"
+
+	# Link custom assets relative to /static
+	favicon   = "assets/favicon.ico"
+	customCSS = []
+	customJS  = []
 
 	# To provide some metadata for search engines and the about section in the footer
 	# feel free to add a few information about you and your website.
 	name = "Heng Shi"
-    gravatar = "hongyfeng123@gmail.com"
-	# bio = "I'm just a theme. That's it. If you like my design clone [me](//github.com/digitalcraftsman/hugo-steam-theme) from Github. Thanks."
-    bio = "Always on the way."
-    description = "Yet another personal blog"
-	# location = "" # optional
-	# twitter = "spf13" # optional
-	github = "Xdeon" # optional
-	# gitlab = "pcarranza"
-    email = "hongyfeng123@gmail.com"
-    linkedin = "hengshi"
+	# bio = "programmer - blogger - coffee aficionado"
+	bio = "Always on the way."
+	description = "Yet another personal blog"
+	# Link your social networks (optional)
+	location = ""
+	twitter = ""
+	linkedin = "hengshi"
+	googleplus = ""
+	facebook = ""
+	instagram = ""
+	github = "Xdeon"
+	gitlab = ""
+	bitbucket = ""
+	email = "hongyfeng123@gmail.com"
     keybase = "xdeon"
-	# Enable a comment system
-	# You can choose between Disqus or Google Plus by setting comments
-	# to disqus or googleplus. For using Disqus you need to enter your
-	# shortname in disqusShortname at the top of the configs.
-	comments = "disqus"
 
 	# Customize or translate the strings
 	keepReadingStr = "Read more"
@@ -55,13 +59,3 @@ paginate = 10
     name = "Tags"
     url = "/tags/"
     weight = 2
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 3
-
-[[menu.main]]
-    name = "License"
-    url = "/license/"
-    weight = 4

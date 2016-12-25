@@ -1,7 +1,10 @@
 +++
 date = "2016-03-09T05:12:53-07:00"
-draft = false
 title = "About"
+menu  = "main"
+url = "about/"
+weight = 3
+hide = "true"
 +++
 
 ## About me

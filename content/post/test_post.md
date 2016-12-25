@@ -10,7 +10,7 @@ Nice to meet you guys! This is a test post.
 <!--more-->
 
 ## Image test
-![alt text](/images/cloud.jpg "雲バトル")
+![alt text](/img/cloud.jpg "雲バトル")
 
 
 ## Video test
