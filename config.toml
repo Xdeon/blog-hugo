@@ -59,3 +59,13 @@ paginate = 10
     name = "Tags"
     url = "/tags/"
     weight = 2
+
+[[menu.main]]
+	name  = "About"
+	url = "/about/"
+	weight = 3
+
+[[menu.main]]
+	name  = "License"
+	url = "/license/"
+	weight = 4

@@ -1,9 +1,6 @@
 +++
 date = "2016-08-12T16:16:00-06:00"
 title = "License"
-menu  = "main"
-url = "license/"
-weight = 4
 hide = "true"
 +++
 
