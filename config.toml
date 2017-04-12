@@ -10,7 +10,7 @@ paginate = 10
 
 [permalinks]
     # Permalink format for blog posts.
-    post = "/post/:title/"
+    post = "/article/:title/"
 
 [params]
 	title = "Heng's Notes"
