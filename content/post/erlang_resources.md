@@ -20,7 +20,7 @@ tags = ["erlang", "learning"]
 
 [SublimErl, An Erlang Plugin for Sublime Text 2](https://github.com/ostinelli/SublimErl)
 
-[Rebar, Erlang building tool](https://github.com/rebar/rebar)
+[rebar3, Erlang build tool](https://www.rebar3.org) (For backward compatibility you may also check the deprecated, older version of [rebar](https://github.com/rebar/rebar))
 
 [erlang.mk, A build tool for Erlang that just works](https://erlang.mk)
 
@@ -35,4 +35,6 @@ tags = ["erlang", "learning"]
 
 [Erlangs parallelism is not parallelism!](http://jlouisramblings.blogspot.ca/2011/07/erlangs-parallelism-is-not-parallelism.html)
 
-[The Eight Myths of Erlang Performance](http://erlang.org/doc/efficiency_guide/myths.html#id60414)
+[The Seven Myths of Erlang Performance](http://erlang.org/doc/efficiency_guide/myths.html#id60414)
+
+[Academic and Historical Questions - Erlang FAQ](http://erlang.org/faq/academic.html) 
