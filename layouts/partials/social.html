@@ -29,8 +29,8 @@
     {{ with .Site.Params.keybase }}
     <a href="//keybase.io/{{ . }}" target="_blank" rel="noopener noreferrer" title="Keybase"><i class="fa fa-2x fa-fw fa-key"></i> <span class="hidden">Keybase</span></a>
     {{ end }}
-    {{ with .RSSLink }}
-    <a href="{{ . }}" target="_blank" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>
-    {{ end }}
+    {{ range .AlternativeOutputFormats -}}
+    {{ printf `<a href="%s" target="_blank" title="RSS" /><i class="fa fa-2x fa-fw fa-rss"></i><span class="hidden">RSS</span>` .Permalink | safeHTML }}
+    {{ end -}}
 </section>
 
