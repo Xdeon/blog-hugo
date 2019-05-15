@@ -1,0 +1,16 @@
+<button
+    class="btn btn-primary snipcart-add-item"
+    data-item-id="{{ .URL }}"
+    data-item-name="{{ .Title }}"
+    data-item-price="{{ .Params.price }}"
+    data-item-url="{{ .Permalink }}"
+    {{ with .Params.shortDescription }}
+    data-item-description="{{ . }}"
+    {{ end }}
+    {{ with .Params.image }}
+    data-item-image="{{ $.Site.Params.cloudinary_base_url }}/w_50,h_50,c_fill,g_auto{{ . }}"
+    {{ end }}
+
+>
+Buy
+</button>
