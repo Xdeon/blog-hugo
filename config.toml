@@ -50,7 +50,7 @@ paginate = 10
 	shareStr = "Share"
 	pageNotFoundTitle = "404 - Page not found"
 
-	staticman_url = "https://dev.staticman.net/v3/entry/github/Xdeon/mysite-hugo/master"
+	staticman_url = "https://dev.staticman.net/v3/entry/github/Xdeon/mysite-hugo/master/comments"
 	# staticman_debug = true
 
 [[menu.main]]
