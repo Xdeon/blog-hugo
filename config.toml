@@ -1,7 +1,7 @@
 baseurl = "https://hengshi.me/"
 languageCode = "en-us"
 title = "Heng's Notes"
-theme = "hugo-steam-theme"
+theme = ["hugo-steam-theme", "hugo-utilitybelt"]
 disqusShortname = "hengshi"
 # Enable Google Analytics be inserting your tracking code
 googleAnalytics = "UA-73371509-2"
@@ -49,6 +49,9 @@ paginate = 10
 	backtotopStr = "Back to top"
 	shareStr = "Share"
 	pageNotFoundTitle = "404 - Page not found"
+
+	staticman_url = "https://dev.staticman.net/v3/entry/github/Xdeon/mysite-hugo/master"
+	# staticman_debug = true
 
 [[menu.main]]
     name = "Blog"

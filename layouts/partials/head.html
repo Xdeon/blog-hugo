@@ -34,4 +34,6 @@
 
     {{ "<!-- Stylesheet for theme color -->" | safeHTML }}
     {{ partial (printf "themes/%s-theme" .Site.Params.themecolor) . }}
+
+    {{ partial "use_staticman_head.html" . }}
 </head>
