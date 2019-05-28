@@ -1,9 +1,11 @@
-+++
-date = "2016-03-10T06:11:36-06:00"
-title = "Erlang Resources"
-description = "Some collection of Erlang learning resources."
-tags = ["erlang", "learning"]
-+++
+---
+title: "Erlang Resources"
+date: 2016-03-10T06:11:36-06:00
+draft: false
+summary: "Some collection of Erlang learning resources."
+tags: ["erlang", "learning"]
+comments: true
+---
 
 ## Learning resources
 

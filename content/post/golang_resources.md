@@ -1,9 +1,11 @@
-+++
-date = "2016-02-04T07:47:19-06:00"
-description = "Some collection of Golang learning resources."
-title = "Golang Resources"
-tags = ["golang", "learning"]
-+++
+---
+title: "Golang Resources"
+date: 2016-02-04T07:47:19-06:00
+draft: false
+summary: "Some collection of Golang learning resources."
+tags: ["golang", "learning"]
+comments: true
+---
 
 Unofficial ARM tarballs for Go:
 

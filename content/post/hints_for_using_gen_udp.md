@@ -2,8 +2,9 @@
 title: "Notes for using gen_udp"
 date: 2017-06-29T22:04:44-06:00
 draft: false
-description: For my own notes
+summary: For my own notes
 tags: ["erlang", "learning"]
+comments: true
 ---
 
 When I was using [`gen_udp`](http://erlang.org/doc/man/gen_udp.html) implementing an application protocol, I struggled a lot to improve its performance in terms of throughput (requests processed per second) and latency. 

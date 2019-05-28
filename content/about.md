@@ -1,8 +1,9 @@
-+++
-date = "2018-08-29T05:12:53-07:00"
-title = "About"
-hide = "true"
-+++
+---
+title: "About"
+date: 2018-08-29T05:12:53-07:00
+hide: true
+comments: false
+---
 
 ## About me
 

@@ -1,9 +1,11 @@
-+++
-date = "2015-07-30T05:57:30-06:00"
-description = ""
-title = "Test Post"
-tags = ["erlang", "golang", "hello world"]
-+++
+---
+title: "Test Post"
+date: 2015-07-30T05:57:30-06:00
+draft: false
+summary: ""
+tags: ["erlang", "golang", "hello world"]
+comments: true
+---
 
 Nice to meet you guys! This is a test post.
 
@@ -15,26 +17,30 @@ Nice to meet you guys! This is a test post.
 
 ## Video test
 
-Build Web App with Go Language
+<!-- Build Web App with Go Language -->
 {{< youtube Vlie-srOU8c >}}
 
 ## Code block test
 
 Hello world in Go
-<pre><code class="go">//Hello World
+```go
+// Hello World
 package main
 import "fmt"
+
 func main() {
   fmt.Println("Hello, world!")
-}</code></pre>
+```
 
 Hello world in Erlang
-<pre><code class="erlang">//Hello World
+```erlang
+%% Hello World
 -module(hello).
 -export([hello/0]).
+
 hello() ->
-	io:format("Hello, world!"). 
-</code></pre>
+  io:format("Hello, world!").
+```
 
 ## 日本語テスト
 春の日やあの世この世と馬車を駆り
