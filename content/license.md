@@ -1,8 +1,9 @@
-+++
-date = "2016-08-12T16:16:00-06:00"
-title = "License"
-hide = "true"
-+++
+---
+title: "License"
+date: 2016-08-12T16:16:00-06:00
+hide: true
+comments: false
+---
 
 ## Content license
 

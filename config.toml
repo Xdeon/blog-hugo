@@ -1,74 +1,57 @@
 baseurl = "https://hengshi.me/"
 languageCode = "en-us"
 title = "Heng's Notes"
-theme = ["hugo-steam-theme", "hugo-utilitybelt"]
-disqusShortname = "hengshi"
-# Enable Google Analytics be inserting your tracking code
-googleAnalytics = "UA-73371509-2"
-# Number of posts per page
+theme = "solar-theme-hugo"
 paginate = 10
+pygmentsCodefences = true
+pygmentsStyle = "solarized-dark256" # solarized-light, -dark or -dark256
+hasCJKLanguage = true
+googleAnalytics = "UA-73371509-2"
 
 [permalinks]
     # Permalink format for blog posts.
-    post = "/article/:title/"
+    post = "/post/:title/"
 
 [params]
-	title = "Heng's Notes"
-	subtitle = "Learn by doing"
-	copyright = "Powered by [Hugo](https://gohugo.io); Theme based on [steam](https://github.com/digitalcraftsman/hugo-steam-theme)."
-
-	# You can choose between green, orange, red and blue.
-	themecolor = "blue"
-
-	# Link custom assets relative to /static
-	favicon   = "assets/favicon.ico"
-	customCSS = []
-	customJS  = []
-
-	# To provide some metadata for search engines and the about section in the footer
-	# feel free to add a few information about you and your website.
-	name = "Heng Shi"
-	# bio = "programmer - blogger - coffee aficionado"
-	bio = "Always on the way."
-	description = "Yet another personal blog"
-	# Link your social networks (optional)
-	location = ""
-	twitter = ""
-	linkedin = "hengshi"
-	googleplus = ""
-	facebook = ""
-	instagram = ""
-	github = "Xdeon"
-	gitlab = ""
-	bitbucket = ""
-	email = "hongyfeng123@gmail.com"
-    keybase = "xdeon"
-
-	# Customize or translate the strings
-	keepReadingStr = "Read more"
-	backtotopStr = "Back to top"
-	shareStr = "Share"
+	scheme = "gray" # light, dark or gray
+	description = "Learn by doing"
+	utterances = "Xdeon/mysite-hugo-comments"
 	pageNotFoundTitle = "404 - Page not found"
+	linkedin = "hengshi"
+	github = "Xdeon"
+	keybase = "xdeon"
+	email = "hongyfeng123@gmail.com"
 
-	staticman_url = "https://dev.staticman.net/v3/entry/github/Xdeon/mysite-hugo/master"
-	# staticman_debug = true
+[menu]
+	[[menu.main]]
+		name = "Home"
+		url = "/"
+	[[menu.main]]
+		name = "Tags"
+		url = "/tags"
 
-[[menu.main]]
-    name = "Blog"
-    url = "/"
-    weight = 1
+	[[menu.other]]
+		name = "About"
+		url = "/about/"
+		weight = 10
+	[[menu.other]]
+		name = "License"
+		url = "/license"
+		weight = 20
+	[[menu.other]]
+		name = "RSS"
+		url = "/index.xml"
+		weight = 30
 
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 2
 
-[[menu.main]]
-	name  = "About"
-	url = "/about/"
-	weight = 3
-
-[[menu.main]]
-	name  = "License"
-	url = "/license/"
-	weight = 4
+# 	# Link your social networks (optional)
+# 	location = ""
+# 	linkedin = "hengshi"
+# 	googleplus = ""
+# 	facebook = ""
+# 	instagram = ""
+# 	github = "Xdeon"
+# 	gitlab = ""
+# 	bitbucket = ""
+# 	email = "hongyfeng123@gmail.com"
+#     keybase = "xdeon"
