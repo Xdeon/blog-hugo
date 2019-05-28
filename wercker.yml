@@ -1,9 +1,10 @@
 box: debian
 build:
   steps:
-    - arjen/hugo-build@1.19.0:
-        version: "0.24.1"
-        theme: "solar-theme-hugo"
+    - arjen/hugo-build:
+        # version: "0.55.6"
+        # theme: redlounge
+        # config: second-config.toml
         flags: --buildDrafts=false
 deploy:
   steps:
