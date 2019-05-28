@@ -17,6 +17,7 @@ googleAnalytics = "UA-73371509-2"
 	description = "Learn by doing"
 	utterances = "Xdeon/mysite-hugo-comments"
 	pageNotFoundTitle = "404 - Page not found"
+	# social links
 	linkedin = "hengshi"
 	github = "Xdeon"
 	keybase = "xdeon"
@@ -26,19 +27,24 @@ googleAnalytics = "UA-73371509-2"
 	[[menu.main]]
 		name = "Home"
 		url = "/"
+		weight = 10
+
 	[[menu.main]]
 		name = "Tags"
 		url = "/tags"
+		weight = 20
+
+	[[menu.main]]
+		name = "RSS"
+		url = "/index.xml"
+		weight = 30
 
 	[[menu.other]]
 		name = "About"
 		url = "/about/"
 		weight = 10
+
 	[[menu.other]]
 		name = "License"
 		url = "/license"
 		weight = 20
-	[[menu.other]]
-		name = "RSS"
-		url = "/index.xml"
-		weight = 30

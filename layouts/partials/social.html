@@ -1,32 +1,32 @@
-<div>
-    {{ with .Site.Params.twitter }}
-    <a href="//twitter.com/{{ . }}" target="_blank" rel="noopener noreferrer" title="Twitter"><span class="hidden">Twitter</span></a>&nbsp;
-    {{ end }}
-    {{ with .Site.Params.linkedin }}
-    <a href="//www.linkedin.com/in/{{ . }}" target="_blank" rel="noopener noreferrer" title="linkedIn"><span class="hidden">LinkedIn</span></a>&nbsp;
-    {{ end }}
-	{{ with .Site.Params.googleplus }}
-    <a href="//plus.google.com/{{ . }}" target="_blank" rel="noopener noreferrer" title="Google+"><span class="hidden">Google+</span></a>&nbsp;
-    {{ end }}
-	{{ with .Site.Params.facebook }}
-    <a href="//www.facebook.com/{{ . }}" target="_blank" rel="noopener noreferrer" title="Facebook"><span class="hidden">Facebook</span></a>&nbsp;
-    {{ end }}
-	{{ with .Site.Params.instagram }}
-    <a href="//www.instagram.com/{{ . }}" target="_blank" rel="noopener noreferrer" title="Instagram"><span class="hidden">Instagram</span></a>&nbsp;
-    {{ end }}
+<ul class="nav">
     {{ with .Site.Params.github }}
-    <a href="//github.com/{{ . }}" target="_blank" rel="noopener noreferrer" title="GitHub"><span class="hidden">GitHub</span></a>&nbsp;
+    <li><a href="//github.com/{{ . }}" target="_blank" rel="noopener noreferrer" title="GitHub"><span class="hidden">GitHub</span></a></li>
     {{ end }}
     {{ with .Site.Params.gitlab }}
-    <a href="//gitlab.com/u/{{ . }}" target="_blank" rel="noopener noreferrer" title="GitLab"><span class="hidden">GitLab</span></a>&nbsp;
+    <li><a href="//gitlab.com/u/{{ . }}" target="_blank" rel="noopener noreferrer" title="GitLab"><span class="hidden">GitLab</span></a></li>
     {{ end }}
     {{ with .Site.Params.bitbucket }}
-    <a href="//bitbucket.org/{{ . }}" target="_blank" rel="noopener noreferrer" title="Bitbucket"><span class="hidden">Bitbucket</span></a>&nbsp;
+    <li><a href="//bitbucket.org/{{ . }}" target="_blank" rel="noopener noreferrer" title="Bitbucket"><span class="hidden">Bitbucket</span></a></li>
+    {{ end }}
+    {{ with .Site.Params.twitter }}
+    <li><a href="//twitter.com/{{ . }}" target="_blank" rel="noopener noreferrer" title="Twitter"><span class="hidden">Twitter</span></a></li>
+    {{ end }}
+    {{ with .Site.Params.linkedin }}
+    <li><a href="//www.linkedin.com/in/{{ . }}" target="_blank" rel="noopener noreferrer" title="linkedIn"><span class="hidden">LinkedIn</span></a></li>
+    {{ end }}
+	{{ with .Site.Params.googleplus }}
+    <li><a href="//plus.google.com/{{ . }}" target="_blank" rel="noopener noreferrer" title="Google+"><span class="hidden">Google+</span></a></li>
+    {{ end }}
+	{{ with .Site.Params.facebook }}
+    <li><a href="//www.facebook.com/{{ . }}" target="_blank" rel="noopener noreferrer" title="Facebook"><span class="hidden">Facebook</span></a></li>
+    {{ end }}
+	{{ with .Site.Params.instagram }}
+    <li><a href="//www.instagram.com/{{ . }}" target="_blank" rel="noopener noreferrer" title="Instagram"><span class="hidden">Instagram</span></a></li>
     {{ end }}
     {{ with .Site.Params.keybase }}
-    <a href="//keybase.io/{{ . }}" target="_blank" rel="noopener noreferrer" title="Keybase"><span class="hidden">Keybase</span></a>
+    <li><a href="//keybase.io/{{ . }}" target="_blank" rel="noopener noreferrer" title="Keybase"><span class="hidden">Keybase</span></a></li>
     {{ end }}
     {{ with .Site.Params.email }}
-	<a href="mailto:{{ . }}" target="_blank" rel="noopener noreferrer" title="Email"><span class="hidden">Email</span></a>&nbsp;
-	{{ end }}
-</div>
+	<li><a href="mailto:{{ . }}" target="_blank" rel="noopener noreferrer" title="Email"><span class="hidden">Email</span></a></li>
+    {{ end }}
+</ul>
