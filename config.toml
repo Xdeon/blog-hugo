@@ -1,6 +1,6 @@
 baseurl = "https://hengshi.me/"
 languageCode = "en-us"
-title = "Heng's Notes"
+title = "-behaviour(human)."
 theme = "solar-theme-hugo"
 paginate = 10
 pygmentsCodefences = true
