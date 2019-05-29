@@ -13,10 +13,12 @@ googleAnalytics = "UA-73371509-2"
     post = "/post/:title/"
 
 [params]
+	name = "Heng Shi"
 	scheme = "gray" # light, dark or gray
 	description = "Learn by doing"
 	utterances = "Xdeon/mysite-hugo-comments"
 	pageNotFoundTitle = "404 - Page not found"
+	since = 2015
 	# social links
 	linkedin = "hengshi"
 	github = "Xdeon"
@@ -31,12 +33,12 @@ googleAnalytics = "UA-73371509-2"
 
 	[[menu.main]]
 		name = "Tags"
-		url = "/tags"
+		url = "/tags/"
 		weight = 20
 
 	[[menu.main]]
 		name = "RSS"
-		url = "/index.xml"
+		url = "/index.xml/"
 		weight = 30
 
 	[[menu.other]]
@@ -46,5 +48,5 @@ googleAnalytics = "UA-73371509-2"
 
 	[[menu.other]]
 		name = "License"
-		url = "/license"
+		url = "/license/"
 		weight = 20
