@@ -15,6 +15,8 @@ comments: true
 
 [YET ANOTHER INTRODUCTION TO ERLANG](http://theerlangelist.blogspot.ca/2012/12/yet-another-introduction-to-erlang.html)
 
+[SPAWNED SHELTER!](http://spawnedshelter.com)
+
 
 ## Tools
 
