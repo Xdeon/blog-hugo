@@ -2,7 +2,7 @@
 title: "Notes for using gen_udp"
 date: 2017-06-29T22:04:44-06:00
 draft: false
-summary: For my own notes
+summary: "For my own notes"
 tags: ["erlang", "learning"]
 comments: true
 ---
