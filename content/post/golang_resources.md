@@ -9,7 +9,7 @@ comments: true
 
 Unofficial ARM tarballs for Go:
 
-http://dave.cheney.net/unofficial-arm-tarballs
+https://dave.cheney.net/unofficial-arm-tarballs
 
 (Update: Since Go 1.6, ARM was supported officially.)
 
@@ -19,12 +19,12 @@ https://tour.golang.org
 
 Go offical blog:
 
-http://blog.golang.org
+https://blog.golang.org
 
 Go books:
 
-http://www.golang-book.com
+https://www.golang-book.com
 
 Go China Community:
 
-http://www.golangtc.com
+https://www.golangtc.com
