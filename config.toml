@@ -7,13 +7,17 @@ pygmentsCodefences = true
 pygmentsStyle = "solarized-dark256" # solarized-light, -dark or -dark256
 hasCJKLanguage = true
 googleAnalytics = "UA-73371509-2"
+# Used by RSS template
+copyright = "This work is licensed under Creative Commons BY-NC-SA & Apache License."
+
+[author]
+    name = "Heng Shi"
 
 [permalinks]
     # Permalink format for blog posts.
     post = "/post/:title/"
 
 [params]
-	name = "Heng Shi"
 	scheme = "gray" # light, dark or gray
 	description = "Learn by doing"
 	utterances = "Xdeon/mysite-hugo-comments"
