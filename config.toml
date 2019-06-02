@@ -38,7 +38,7 @@ googleAnalytics = "UA-73371509-2"
 
 	[[menu.main]]
 		name = "RSS"
-		url = "/index.xml/"
+		url = "/index.xml"
 		weight = 30
 
 	[[menu.other]]
