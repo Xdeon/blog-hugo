@@ -9,7 +9,7 @@ comments: false
 
 I finished my graduate study at the [Department of Computer Science, University of Saskatchewan, Canada](https://www.cs.usask.ca). My research focuses on utilizing concurrency-oriented programming language such as [Erlang](https://www.erlang.org)/[Go](https://golang.org) to build infrastructure for the Internet of Things protocols like [CoAP](https://coap.technology). 
 
-Previously I was involved in electrical engineering and had some experience related to IC/FPGA design and industry automation. I am also a MOOC fan, being active on [Coursera](https://www.coursera.org/) recently.
+Previously I was involved in electrical engineering and had some experience related to IC/FPGA design and industrial automation. I am also a MOOC fan, being active on [Coursera](https://www.coursera.org/) recently.
 
 ## Education
 
