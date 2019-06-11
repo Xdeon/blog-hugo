@@ -372,7 +372,9 @@ article h1 a.anchor {
 }
 
 article p {
-	text-align: justify;
+	/* text-align: justify; */
+	word-break: normal;
+	letter-spacing: 0.2px;
 }
 
 article img {
