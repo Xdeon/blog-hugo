@@ -7,7 +7,7 @@ tags: ["erlang"]
 comments: true
 ---
 
-I was trying to continue with the implemenation of the Erlang CoAP server (as a hobby project maybe) and noticed some issues while exploring the DTLS features. 
+I was planning to continue with the implemenation of the Erlang CoAP server (as a hobby project maybe) and noticed some issues while exploring the DTLS features. 
 
 <!--more--> 
 

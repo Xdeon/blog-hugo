@@ -1,5 +1,5 @@
 ---
-title: "Golang Resources"
+title: "Golang Learning Resources"
 date: 2016-02-04T07:47:19-06:00
 draft: false
 summary: "Some collection of Golang learning resources."

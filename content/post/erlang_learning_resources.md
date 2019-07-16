@@ -1,5 +1,5 @@
 ---
-title: "Erlang Resources"
+title: "Erlang Learning Resources"
 date: 2016-03-10T06:11:36-06:00
 draft: false
 summary: "Some collection of Erlang learning resources."
@@ -17,10 +17,9 @@ comments: true
 
 [SPAWNED SHELTER!](http://spawnedshelter.com)
 
-
 ## Tools
 
-[intellij-erlang, Erlang plugin for IntelliJ IDEA](http://ignatov.github.io/intellij-erlang/)
+[intellij-erlang, Erlang plugin for IntelliJ IDEA](https://ignatov.github.io/intellij-erlang/)
 
 [SublimErl, An Erlang Plugin for Sublime Text 2](https://github.com/ostinelli/SublimErl)
 
@@ -28,12 +27,11 @@ comments: true
 
 [erlang.mk, A build tool for Erlang that just works](https://erlang.mk)
 
-
 ## Some great blogs
 
-[Fred](http://ferd.ca) (the author of Learn You Some Erlang for Great Good)
+[“My bad opinions”](https://ferd.ca) (From the author of Learn You Some Erlang for Great Good)
 
-[Joe Armstrong](http://joearms.github.io/index.html) (one of the creaters of Erlang)
+[Joe Armstrong - Erlang and other stuff](https://joearms.github.io/index.html) (Thoughts of one of the creaters of Erlang)
 
 ## Thoughts
 
