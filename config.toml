@@ -19,7 +19,7 @@ copyright = "This work is licensed under Creative Commons BY-NC-SA & Apache Lice
 
 [params]
 	scheme = "gray" # light, dark or gray
-	description = "Learn by doing"
+	description = "Learning by Doing"
 	utterances = "Xdeon/mysite-hugo-comments"
 	pageNotFoundTitle = "404 - Page not found"
 	since = 2015
