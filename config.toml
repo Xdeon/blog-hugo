@@ -1,4 +1,4 @@
-baseURL = "https://hengshi.me/"
+baseURL = "https://hengshi.me"
 languageCode = "en-us"
 title = "-behaviour(human)."
 theme = "solar-theme-hugo"
