@@ -20,9 +20,10 @@ copyright = "This work is licensed under Creative Commons BY-NC-SA & Apache Lice
 [params]
 	scheme = "gray" # light, dark or gray
 	description = "Learning by Doing"
+	since = 2015
+	footer = "Icons made by <a href=\"https://www.freepik.com/\" title=\"Freepik\">Freepik</a> from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">Flaticon</a> is licensed by <a href=\"http://creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a>"
 	utterances = "Xdeon/mysite-hugo-comments"
 	pageNotFoundTitle = "404 - Page not found"
-	since = 2015
 	# social links
 	linkedin = "hengshi"
 	github = "Xdeon"
