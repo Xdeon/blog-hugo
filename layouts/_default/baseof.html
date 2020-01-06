@@ -4,15 +4,17 @@
 		{{ template "_internal/google_analytics_async.html" . }}
 
 		<meta charset="utf-8">
-		<title>{{ .Title }}</title>
 		<meta name="viewport" content="width=device-width">
-		{{ range .AlternativeOutputFormats -}}
-			{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-		{{ end -}}
-		<link rel="stylesheet" href="{{ "css/hybrid.css" | absURL }}">
-		<link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
-		{{ $style := printf "css/colors-%s.css" ( .Site.Params.scheme | default "dark" ) }}
-		<link rel="stylesheet" href="{{ $style | absURL }}">
+		{{ with .OutputFormats.Get "RSS" }}
+			<link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+			<link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+		{{ end }}
+
+		<title>{{ .Title }}</title>
+
+		{{ $style := resources.Get (printf "css/colors-%s.scss" (.Site.Params.scheme | default "dark")) | toCSS | minify | fingerprint }}
+		<link rel="stylesheet" href="{{ $style.Permalink }}">
+
 		{{ partial "head.html" . }}
 	</head>
 	<body>
