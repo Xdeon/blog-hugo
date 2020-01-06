@@ -13,7 +13,7 @@ All non-code blog content is licensed under [Creative Commons BY-NC-SA](https://
 
 All source code files and snippets found on this blog, unless otherwise explicitly noted, are licensed under the terms below.
 
->Copyright 2015-2019 Heng Shi
+>Copyright 2015-2020 Heng Shi
 
 >Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
