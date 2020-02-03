@@ -32,7 +32,13 @@
 				{{ block "main" . }}{{ end }}
 			</div>
 
-			{{ partial "foot.html" . }}
+			<footer id="footer">
+				<p class="copyright">
+					{{ partial "foot.html" . }}
+					Powered by <a href="https://gohugo.io/">Hugo</a> and the
+					<a href="https://github.com/bake/solar-theme-hugo">Solar</a>-theme.
+				</p>
+			</footer>
 		</div>
 	</body>
 </html>
