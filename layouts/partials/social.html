@@ -23,9 +23,6 @@
 	{{ with .Site.Params.instagram }}
     <li><a href="https://www.instagram.com/{{ . }}" target="_blank" rel="noopener noreferrer" title="Instagram"><span class="hidden">Instagram</span></a></li>
     {{ end }}
-    {{ with .Site.Params.keybase }}
-    <li><a href="https://keybase.io/{{ . }}" target="_blank" rel="noopener noreferrer" title="Keybase"><span class="hidden">Keybase</span></a></li>
-    {{ end }}
     {{ with .Site.Params.email }}
 	<li><a href="mailto:{{ . }}" target="_blank" rel="noopener noreferrer" title="Email"><span class="hidden">Email</span></a></li>
     {{ end }}
